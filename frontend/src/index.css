@@ -1,0 +1,110 @@
+/* ===== MindEase Gamified Arcade Theme ===== */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+
+:root {
+  /* Gamified Light Theme - Candy Pastel */
+  --bg-1: #fff0f5; /* Lavender blush base */
+  --bg-2: #ffd1dc; /* Pink dots */
+
+  --card-bg: #ffffff;
+  --card-border: #2d3436; /* Dark thick outline */
+  --card-shadow: 0 8px 0 #2d3436; /* Hard arcade shadow */
+
+  --text: #2d3436;
+  --text-muted: #636e72;
+  --heading: #ff4757; /* Bright candy red */
+
+  --accent: #1e90ff; /* Dodger blue */
+  --accent-strong: #3742fa;
+  --accent-soft: #ffeaa7; /* Soft yellow */
+  --accent-soft-border: #2d3436;
+
+  --good: #2ed573;
+  --danger: #ff4757;
+  --crisis-bg: #ffcccb;
+  --crisis-border: #2d3436;
+  --reflection-bg: #eccc68;
+  
+  --gradient-btn: linear-gradient(to bottom, #70a1ff, #1e90ff);
+  --gradient-btn-hover: linear-gradient(to bottom, #1e90ff, #3742fa);
+  --btn-shadow: 0 6px 0 #192a56;
+}
+
+[data-theme='dark'] {
+  /* Gamified Dark Theme - Cyber Arcade */
+  --bg-1: #2f3542; /* Deep slate */
+  --bg-2: #57606f; /* Lighter dots */
+
+  --card-bg: #1e272e;
+  --card-border: #f1f2f6; /* White outline */
+  --card-shadow: 0 8px 0 #000000;
+
+  --text: #f1f2f6;
+  --text-muted: #ced6e0;
+  --heading: #ff4757; /* Neon red */
+
+  --accent: #70a1ff;
+  --accent-strong: #1e90ff;
+  --accent-soft: #ffa502; /* Orange */
+  --accent-soft-border: #f1f2f6;
+
+  --good: #2ed573;
+  --danger: #ff6348;
+  --crisis-bg: #ff4757;
+  --crisis-border: #f1f2f6;
+  --reflection-bg: #3742fa;
+  
+  --gradient-btn: linear-gradient(to bottom, #ff7eb3, #ff758c);
+  --gradient-btn-hover: linear-gradient(to bottom, #ff758c, #ff4757);
+  --btn-shadow: 0 6px 0 #8b0000;
+}
+
+* { box-sizing: border-box; }
+
+html { color-scheme: light dark; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Nunito', system-ui, sans-serif;
+  color: var(--text);
+  background-color: var(--bg-1);
+  transition: background 0.4s ease, color 0.4s ease;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Playful Polka Dot Pattern Background */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--bg-1);
+  background-image: 
+    radial-gradient(var(--bg-2) 15%, transparent 15%), 
+    radial-gradient(var(--bg-2) 15%, transparent 15%);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+h1, h2, h3, h4, h5 { 
+  font-family: 'Nunito', sans-serif; 
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+:focus-visible {
+  outline: 4px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
