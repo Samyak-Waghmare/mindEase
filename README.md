@@ -35,10 +35,12 @@ Students, young professionals, and anyone who wants to improve their mental well
 *(Please see the Devpost gallery for full screenshots including the Gamified Dashboard, "My Sprout" evolution tab, and AI Analysis results!)*
 
 ## 🔗 Project Link / Repository
-*(Add your GitHub/GitLab link here prior to submission!)*
+[MindEase GitHub Repository](https://github.com/Samyak-Waghmare/mindease)  
+[Live Demo (Vercel)](https://mind-ease-theta-navy.vercel.app/)
 
 ## 👥 Team Details
-- **[Your Name]** - Full Stack Developer & UI/UX Designer
+- **Samyak Waghmare** - Frontend Development, UI/UX Design, and Gamification Integration.
+- **Jayesh Waghmare** - Backend Development, Google Gemini AI Integration, and Safety/Database Architecture.
 
 ---
 
