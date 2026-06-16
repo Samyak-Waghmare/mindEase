@@ -31,9 +31,6 @@ Students, young professionals, and anyone who wants to improve their mental well
 
 ---
 
-## 📸 Project Files (Screenshots)
-*(Please see the Devpost gallery for full screenshots including the Gamified Dashboard, "My Sprout" evolution tab, and AI Analysis results!)*
-
 ## 🔗 Project Link / Repository
 [MindEase GitHub Repository](https://github.com/Samyak-Waghmare/mindease)  
 [Live Demo (Vercel)](https://mind-ease-theta-navy.vercel.app/)
