@@ -1,6 +1,6 @@
 # 🌿 MindEase
 
-**A Gamified AI Journaling Companion built for the ML Empowerment Build Challenge.**
+**A Gamified AI Journaling Companion**
 
 ## 🎯 Project Title
 **MindEase**
